@@ -9,6 +9,7 @@ namespace Opgave_4
             string input = "";
             while (input != "exit")
             {
+                Console.WriteLine("Skriv \"exit\" for at stoppe.");
                 input = Console.ReadLine().ToLower();
                 if (input == "exit")
                     break;
