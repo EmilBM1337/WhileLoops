@@ -6,6 +6,11 @@ namespace Opgave_3
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WindowHeight = 50;
+            Console.WindowWidth = 200;
+
             Console.Write("Skriv hvad du vil.... ");
             string input = Console.ReadLine();
             Console.WriteLine("");
